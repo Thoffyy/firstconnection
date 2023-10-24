@@ -18,13 +18,14 @@ nav{
     position:fixed;
     bottom:-350px;
     right:10px;
-    background-color:#EBF5FB;
+    background-color:#7e7e7e;
     max-width:300px;
     height:400px;
-    border:1px solid #3498DB;
+    border:1px solid #7e7e7e;
+    border-radius: 5px;
  }
  #msg-top{
-    background-color:#3498DB;
+    background-color: #f5f5f500;
     height:50px;
     width:100%;
     margin-bottom:20px;
