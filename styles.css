@@ -7,6 +7,16 @@ main span {
     text-align: center;
 }
 
+.video-container{
+    width: 10%;
+    height: 50px;
+}
+
+
+
+
+
+
 
 main .deep-explanation{
     margin: 150px;
