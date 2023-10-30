@@ -23,6 +23,7 @@ main .title{
 
 
 .video-container{
+    height: 100%;
     position: absolute;
     right: 0;
     bottom: 0;
