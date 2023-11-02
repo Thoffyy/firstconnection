@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 
-
+body{
+    background-color: #343434;
+}
 nav{
     background-color: transparent ;
 }
+
+
+
+
 
 main span {
     font-family:'Francois One, sans-serif';
@@ -20,11 +26,16 @@ main span {
 main .title{
     font-family: 'Quicksand', sans-serif;
     display: flex;
-   font-size: 100px;
+    font-size: 100px;
+    color:antiquewhite
 }
 
+main .subtitle{
+    color: antiquewhite
+}
 
 .video-container{
+    filter: blur(10px);
     height: 100%;
     background-size: cover;
     position: absolute;
