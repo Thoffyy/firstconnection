@@ -76,12 +76,8 @@ main .deep-explanation{
 }
 
 footer{
-    width: 100%;
-    height: fit-content;   
     padding: 50px 0px;
-    background-color: #f50000 ;
-    justify-content: end;
-    
+    background-color: #f50000;
 }
 
 .container__footer{
