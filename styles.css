@@ -4,11 +4,20 @@
 body{
     background-color: #343434;
 }
+
+
 nav{
+    display: none;
     background-color: transparent ;
 }
 
+nav a{
+    flex-direction: row;
+    background-color: #f50000;
+    text-decoration: none;
 
+
+}
 
 
 
