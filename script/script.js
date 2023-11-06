@@ -1,3 +1,10 @@
+const chk = document.getElementById('chk')
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('dark')
+})
+
+
+
 function fazerLogin() {
     var pass = document.getElementById('pass').value;
     var hash = 'b7e94be513e96e8c45cd23d162275e5a12ebde9100a425c4ebcdd7fa4dcd897c';
@@ -20,25 +27,3 @@ function fazerLogin() {
   }
 
 
-  function botao(){
-    var op = document.getElementById('opcoes').value
-    opfim = ''
-    switch(botao){
-    case 1:
-    
- break;
-    case 2:
-    
- break; 
-    case 3:
-    
- break;
-  
-  }
-}
-
-const chk = document.getElementById('chk')
-
-chk.addEventListener('change', () => {
-  document.body.classList.toggle('dark')
-})
